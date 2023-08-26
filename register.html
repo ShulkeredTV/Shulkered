@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ShulkeredTV Register</title>
+	<link rel="stylesheet" href="register.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?		family=Ubuntu&display=swap');
+	</style>
+	<script src="register.js" defer></script>
+</head>
+<body>
+	<p class="back" onclick="location.href='index.html'"><-- Retour</p>
+	<div class="login">
+		<p class="titre">S'enregistrer</p>
+		<p class="txt">Pour vous créer un compte, veuillez renseigner votre adresse mail et créer un mot de passe.</p>
+		<div class="email">
+			<input type="email" class="input" placeholder="Adresse Email" id="input">
+		</div>
+		<div class="mdp">
+			<input type="password" class="input" placeholder="Mot de passe" id="input">
+		</div>
+		<div class="mdpconfirm">
+			<input type="password" class="input" placeholder="Confirmer le mot de passe" id="input">
+		</div>
+		<p class="error" id="error"></p>
+		<div class="confirm">
+			<button class="button-confirm" id="button-confirm">Valider</button>
+		</div>
+	</div>
+</body>
+</html>

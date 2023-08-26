@@ -1,0 +1,78 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background-repeat: no-repeat;
+	background-image: url("img/black background.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Début de la navigation */
+.header{
+	background-color: black;
+	padding: 10px;
+	flex-wrap: wrap;
+	display: flex;
+	position: sticky;
+	top: 10;
+	justify-content: space-between;
+}
+.onglets a{
+	color: white;
+	font-size: 20px;
+	text-decoration-line: none;
+	margin-right: 20px;
+	transition: 0.2s;
+}
+.onglets a:hover{
+	color: grey;
+}
+.onglets{
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.buttons button{
+	padding: 15px;
+	font-size: 15px;
+	color: white;
+	background-color: #000F44;
+	border: none;
+	transition: 0.2s;
+}
+.buttons button:hover{
+	background-color: #001C7D;
+	padding: 10px;
+}
+.header p{
+	color: white;
+}
+/* Fin de la navigation */
+
+.title h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 300px;
+	text-align: center;
+}
+
+/* Début du pied de page */
+
+.colonnes{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+.colonne p{
+	cursor: pointer;
+}
+.colonne p:hover{
+	color: grey;
+	transition: 0.2s;
+}
+footer{
+	background-color: #1a1a1a;	
+	color: white;
+	padding: 35px 100px;
+	margin-top: 327px;
+}
+
+/* Fin du pied de page */
