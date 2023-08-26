@@ -1,0 +1,2 @@
+
+/* Déclaration des variables */
